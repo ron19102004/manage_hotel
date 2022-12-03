@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.GUIMainView">
+  <grid id="27dc6" binding="Screen" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="111" width="500" height="20060"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="88e41">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="21798" class="javax.swing.JButton" binding="fileButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="File"/>
+            </properties>
+          </component>
+          <component id="63af3" class="javax.swing.JButton" binding="editButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Edit"/>
+            </properties>
+          </component>
+          <component id="987da" class="javax.swing.JButton" binding="helpButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Help"/>
+            </properties>
+          </component>
+          <hspacer id="9a128">
+            <constraints/>
+          </hspacer>
+          <component id="1495a" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Refresh"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="453c4" binding="Content" layout-manager="FlowLayout" hgap="5" vgap="100" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="23d4b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="ad26e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <hspacer id="146e4">
+            <constraints/>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
